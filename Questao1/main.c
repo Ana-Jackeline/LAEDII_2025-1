@@ -17,12 +17,12 @@ bool ehPrimo(int n) {
 int main() {
     int inicio, fim;
 
-    printf("Digite o número inicial do intervalo: ");
+    printf("Digite o numero inicial do intervalo: ");
     scanf("%d", &inicio);
-    printf("Digite o número final do intervalo: ");
+    printf("Digite o numero final do intervalo: ");
     scanf("%d", &fim);
 
-    printf("Números primos entre %d e %d:\n", inicio, fim);
+    printf("Numeros primos entre %d e %d:\n", inicio, fim);
     for (int i = inicio; i <= fim; i++) {
         if (ehPrimo(i)) {
             printf("%d ", i);
